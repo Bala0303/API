@@ -28,6 +28,6 @@ public class Post {
                  .assertThat()
                  .body("name",equalTo("Yam"))
                  .header("content-length","117");
-        //Assert.assertEquals();
+       Assert.assertEquals("test" ,"testt");
     }
 }
